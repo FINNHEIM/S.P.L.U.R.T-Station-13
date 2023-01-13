@@ -9,6 +9,14 @@
       "preLaunchTask": "Build All",
       "dmb": "${workspaceFolder}/${command:CurrentDMB}",
 	  "dreamDaemon": true
-    }
+    },
+    {
+			"type": "byond",
+			"request": "launch",
+			"name": "Launch DreamDaemon",
+			"preLaunchTask": "Build All",
+			"dmb": "${workspaceFolder}/${command:CurrentDMB}",
+			"dreamDaemon": true
+		},
   ]
 }
